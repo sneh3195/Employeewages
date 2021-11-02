@@ -23,15 +23,15 @@ public class Employee {
          
            switch(exp) {
            case 0:
-        	   wages=0;
+        	   wages=0 * 20 ;
    	   		System.out.println("Employee is absent \nwages = " + wages);
         
            case 1:
-        	   wages=160;
+        	   wages=160 *20 ;
    	   		System.out.println("Employee is present & PartTime \nwages = " + wages);
 
            case 2:
-        	  wages=160;
+        	  wages=160 * 20 ;
   	   		System.out.println("Employee is present & FullTime \nwages = " + wages);
 
            } 
