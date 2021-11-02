@@ -27,11 +27,11 @@ public class Employee {
    	   		System.out.println("Employee is absent \nwages = " + wages);
         
            case 1:
-        	   wages=160 *20 ;
+        	   wages=((100/20)*20)*20 ;
    	   		System.out.println("Employee is present & PartTime \nwages = " + wages);
 
            case 2:
-        	  wages=160 * 20 ;
+        	  wages=((100/20)*20)*20 ;
   	   		System.out.println("Employee is present & FullTime \nwages = " + wages);
 
            } 
